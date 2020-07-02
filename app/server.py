@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1ZRCULg7PY4JlVc60fRNhvd3QOnCoiLgE/view?usp=sharing'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1ZRCULg7PY4JlVc60fRNhvd3QOnCoiLgE'
 export_file_name = 'export.pkl'
 
 classes = ['Assassination Classroom', 'One Piece', 'Seven Deadly Sins']
